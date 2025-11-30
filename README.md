@@ -1,8 +1,6 @@
 ## MAISARA - A Voice Assistant System
-A voice assistance project by python. Its name is MAISARA
 
-
-MAISARA is a Python-based voice assistant that can interact with the user through speech recognition, perform tasks like opening applications, searching on Google or Wikipedia, playing music randomly, telling jokes, and having small talk.
+MAISARA is a Python-based voice assistant that can interact with the user through speech recognition, perform tasks like opening applications, searching on Google or Wikipedia, telling jokes, and having small talk.
 
 This project uses speech recognition and text-to-speech (TTS) to provide a hands-free assistant experience similar to Iron Man's JARVIS.
 
@@ -36,6 +34,9 @@ This project uses speech recognition and text-to-speech (TTS) to provide a hands
 ## 💻 Requirements 
 
 - Python 3.11 or higher 
+- pyttsx3==2.90
+- pyaudio
+- wikipedia
 
 
 ## How to run? 
@@ -49,7 +50,7 @@ This project uses speech recognition and text-to-speech (TTS) to provide a hands
 2. Activate virtual environment:
 
    ```bash
-   conda activate jarvis
+   conda activate maisara
    ```
 
 3. Install required packages:
